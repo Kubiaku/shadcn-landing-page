@@ -25,18 +25,16 @@ interface PlanProps {
 
 const plans: PlanProps[] = [
   {
-    title: "Free",
+    title: "Strona podstawowa",
     popular: 0,
-    price: 0,
+    price: 199,
     description:
-      "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
-    buttonText: "Start Free Trial",
+      "",
+    buttonText: "Zamów tę ofertę",
     benefitList: [
-      "1 team member",
-      "1 GB storage",
-      "Upto 2 pages",
-      "Community support",
-      "AI assistance",
+      "Wszystkie istotne informacje zgromadzone na jednej stronie",
+      "Intuicyjny interfejs, minimalizujący utratę uwagi użytkownika",
+      "Animacje, które dodadzą powiew świeżości Twojej stronie",
     ],
   },
   {
@@ -105,8 +103,8 @@ export const PricingSection = () => {
                 </CardDescription>
 
                 <div>
-                  <span className="text-3xl font-bold">${price}</span>
-                  <span className="text-muted-foreground"> /month</span>
+                  <span className="text-3xl font-bold">{price} zł</span>
+                  <span className="text-muted-foreground"> </span>
                 </div>
               </CardHeader>
 
