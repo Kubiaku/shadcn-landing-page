@@ -42,7 +42,6 @@ export default function Home() {
   return (
     <>
       <HeroSection />
-      <SponsorsSection />
       <BenefitsSection />
       <FeaturesSection />
       <ServicesSection />
