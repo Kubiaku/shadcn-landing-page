@@ -13,32 +13,30 @@ interface FAQProps {
 
 const FAQList: FAQProps[] = [
   {
-    question: "Is this template free?",
-    answer: "Yes. It is a free NextJS Shadcn template.",
+    question: "Jak długo trwa proces tworzenia strony internetowej?",
+    answer: "Proces tworzenia strony internetowej zazwyczaj trwa od 2 do 4 tygodni, jednak czas realizacji może się różnić w zależności od złożoności projektu, współpracy z klientem oraz dostępności potrzebnych zasobów, takich jak treść i grafiki.",
     value: "item-1",
   },
   {
-    question: "Duis aute irure dolor in reprehenderit in voluptate velit?",
+    question: "Ile kosztuje utrzymanie strony internetowej?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam consectetur sapiente, iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+      "Pierwszy miesiąc obsługi strony jest darmowy. Późniejszy koszt utrzymania strony zależy od jej wielkości, jednak staramy się zapewnić konkurencyjne ceny, dostosowane do potrzeb i budżetu klienta.",
     value: "item-2",
   },
   {
-    question:
-      "Lorem ipsum dolor sit amet Consectetur natus dolor minus quibusdam?",
+    question: "Czy oferujecie wsparcie techniczne po wdrożeniu strony ?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui nostrum reiciendis veritatis.",
+      "Tak, pełne wsparcie techniczne jest wliczone w koszt utrzymania strony. Służąc pomocą w razie problemów technicznych oraz udzielając odpowiedzi na wszelkie pytania związane z funkcjonalnością strony.",
     value: "item-3",
   },
   {
-    question: "Excepteur sint occaecat cupidata non proident sunt?",
-    answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    question: "Oferujecie pomoc w pozycjonowaniu strony ?",
+    answer: "Tak, oferujemy pomoc w pozycjonowaniu strony internetowej. Zostanie przydzielony Ci specialista od marketingu, który zaproponuje strategię SEO, aby poprawić jej widoczność w wynikach wyszukiwania.",
     value: "item-4",
   },
   {
-    question:
-      "Enim ad minim veniam, quis nostrud exercitation ullamco laboris?",
-    answer: "consectetur adipisicing elit. Sint labore.",
+    question: "Czy sam będę mógł zmieniać trść na stronie?",
+    answer: "Tak, tworzymy dedykowanego panel administracyjny do każdej naszej witryny. Dzięki niemu łatwo dodasz, usuniesz i edytujesz treści, zachowując pełną kontrolę nad swoją stroną.",
     value: "item-5",
   },
 ];
@@ -52,7 +50,7 @@ export const FAQSection = () => {
         </h2>
 
         <h2 className="text-3xl md:text-4xl text-center font-bold">
-          Common Questions
+          Najczęściej zadawane pytania
         </h2>
       </div>
 

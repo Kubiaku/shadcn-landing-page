@@ -38,33 +38,29 @@ const plans: PlanProps[] = [
     ],
   },
   {
-    title: "Premium",
+    title: "Darmowy projekt + strona wizytówkowa",
     popular: 1,
-    price: 45,
+    price: 499,
     description:
-      "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
-    buttonText: "Get starterd",
+      "",
+    buttonText: "Zamów tę ofertę",
     benefitList: [
-      "4 team member",
-      "8 GB storage",
-      "Upto 6 pages",
-      "Priority support",
-      "AI assistance",
+      "Bezpłatny projekt interfejsu dopasowany do wizerunku firmy",
+      "Autorski panel administracyjny, umożliwiający zarządzanie stroną",
+      "Profesjonalna poczta elektroniczna z domeną firmy",
     ],
   },
   {
-    title: "Enterprise",
+    title: "Sklep internetowy",
     popular: 0,
-    price: 120,
+    price: 1199,
     description:
-      "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
+      "",
     buttonText: "Contact US",
     benefitList: [
-      "10 team member",
-      "20 GB storage",
-      "Upto 10 pages",
-      "Phone & email support",
-      "AI assistance",
+      "Łatwa aktualizacja katalogu produktów, włączając zdjęcia, ceny i opisy",
+      "Zabezpieczone płatności online, zgodne ze standardami bezpieczeństwa",
+      "Zoptymalizowane SEO, aby zwiększyć widoczność w wyszukiwarkach",
     ],
   },
 ];
@@ -73,15 +69,15 @@ export const PricingSection = () => {
   return (
     <section className="container py-24 sm:py-32">
       <h2 className="text-lg text-primary text-center mb-2 tracking-wider">
-        Pricing
+        Cennik
       </h2>
 
       <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
-        Get unlimitted access
+        Otrzymaj darmowy projekt strony dla Twojej firmy
       </h2>
 
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground pb-14">
-        Lorem ipsum dolor sit amet consectetur adipisicing reiciendis.
+        Zdobądź bezpłatny projekt strony internetowej dostosowany do Twoich potrzeb.
       </h3>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-4">
