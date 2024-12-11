@@ -52,7 +52,7 @@ export const ContactSection = () => {
     const { firstName, lastName, email, subject, message } = values;
     console.log(values);
 
-    const mailToLink = `mailto:leomirandadev@gmail.com?subject=${subject}&body=Hello I am ${firstName} ${lastName}, my Email is ${email}. %0D%0A${message}`;
+    const mailToLink = `mailto:contact@kubiaku.com?subject=${subject}&body=Hello I am ${firstName} ${lastName}, my Email is ${email}. %0D%0A${message}`;
 
     window.location.href = mailToLink;
   }
@@ -63,53 +63,44 @@ export const ContactSection = () => {
         <div>
           <div className="mb-4">
             <h2 className="text-lg text-primary mb-2 tracking-wider">
-              Contact
+              Masz jakieś pytania?
             </h2>
 
-            <h2 className="text-3xl md:text-4xl font-bold">Connect With Us</h2>
+            <h2 className="text-3xl md:text-4xl font-bold">Skontaktuj się z nami</h2>
           </div>
           <p className="mb-8 text-muted-foreground lg:w-5/6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-            ipsam sint enim exercitationem ex autem corrupti quas tenetur
+            Rozwiejmy razem wszelkie wątpliwości oraz chętnie odpowiemy na wszystkie pytania 
+            i udzielimy szczegółowych informacji na temat oferowanych przez nas usług.
           </p>
 
           <div className="flex flex-col gap-4">
             <div>
               <div className="flex gap-2 mb-1">
-                <Building2 />
-                <div className="font-bold">Find us</div>
-              </div>
-
-              <div>742 Evergreen Terrace, Springfield, IL 62704</div>
-            </div>
-
-            <div>
-              <div className="flex gap-2 mb-1">
                 <Phone />
-                <div className="font-bold">Call us</div>
+                <div className="font-bold">Zadzwoń</div>
               </div>
 
-              <div>+1 (619) 123-4567</div>
+              <div>+48 501 810 102</div>
             </div>
 
             <div>
               <div className="flex gap-2 mb-1">
                 <Mail />
-                <div className="font-bold">Mail US</div>
+                <div className="font-bold">Napisz do nas</div>
               </div>
 
-              <div>leomirandadev@gmail.com</div>
+              <div>contact@kubiaku.com</div>
             </div>
 
             <div>
               <div className="flex gap-2">
                 <Clock />
-                <div className="font-bold">Visit us</div>
+                <div className="font-bold">Godzinny otwarcia</div>
               </div>
 
               <div>
-                <div>Monday - Friday</div>
-                <div>8AM - 4PM</div>
+                <div>Poniedziałek - Sobota</div>
+                <div>08:00 - 22:00</div>
               </div>
             </div>
           </div>
