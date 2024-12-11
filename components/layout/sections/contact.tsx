@@ -43,7 +43,7 @@ export const ContactSection = () => {
       firstName: "",
       lastName: "",
       email: "",
-      subject: "Web Development",
+      subject: "Strony internetowe",
       message: "",
     },
   });
@@ -52,7 +52,7 @@ export const ContactSection = () => {
     const { firstName, lastName, email, subject, message } = values;
     console.log(values);
 
-    const mailToLink = `mailto:contact@kubiaku.com?subject=${subject}&body=Hello I am ${firstName} ${lastName}, my Email is ${email}. %0D%0A${message}`;
+    const mailToLink = `mailto:contact@kubiaku.com?subject=${subject}&body=Witam, jestem ${firstName} ${lastName}, mój adres e-mail to ${email}. %0D%0A${message}`;
 
     window.location.href = mailToLink;
   }
@@ -180,10 +180,10 @@ export const ContactSection = () => {
                             </SelectTrigger>
                           </FormControl>
                           <SelectContent>
-                            <SelectItem value="Web Development">
+                            <SelectItem value="Strony internetowe">
                               Strony internetowe
                             </SelectItem>
-                            <SelectItem value="FullStack Project">
+                            <SelectItem value="Zapytanie">
                               Zapytanie
                             </SelectItem>
                           </SelectContent>
