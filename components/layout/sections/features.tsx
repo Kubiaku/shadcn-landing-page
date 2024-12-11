@@ -11,39 +11,39 @@ interface FeaturesProps {
 const featureList: FeaturesProps[] = [
   {
     icon: "TabletSmartphone",
-    title: "Mobile Friendly",
+    title: "Responsywność",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, consectetur.",
+      "Tworzymy responsywne strony internetowe, które doskonale wyglądają i funkcjonują na urządzeniach mobilnych i stacjonarnych, zapewniając doskonałe doświadczenia dla wszystkich użytkowników.",
   },
   {
     icon: "BadgeCheck",
-    title: "Social Proof",
+    title: "Nowoczesne technologie",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Natus consectetur, odio ea accusamus aperiam.",
+      "Wykorzystujemy najnowsze technologie w projektowaniu stron internetowych, aby zapewnić innowacyjność, bezpieczeństwo i wydajność.",
   },
   {
     icon: "Goal",
-    title: "Targeted Content",
+    title: "Przyjazne SEO",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. odio ea accusamus aperiam.",
+      "Nasze strony internetowe są zaprojektowane z uwzględnieniem najlepszych praktyk SEO, co zapewnia lepszą widoczność w wyszukiwarkach i przyciąga większy ruch.",
   },
   {
     icon: "PictureInPicture",
-    title: "Strong Visuals",
+    title: "Intuicyjny panel administracyjny",
     description:
-      "Lorem elit. A odio velit cum aliquam. Natus consectetur dolores, odio ea accusamus aperiam.",
+      "Każda nasza strona jest wyposażona w autorski, intuicyjny panel CMS, pozwalający na szybką i prostą edycję treści bez potrzeby znajomości programowania.",
   },
   {
     icon: "MousePointerClick",
-    title: "Clear CTA",
+    title: "Szybkość działania",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing. odio ea accusamus consectetur.",
+      "Optymalizujemy każdy element strony, aby zapewnić błyskawiczne ładowanie, co poprawia doświadczenie użytkownika i wspiera pozycjonowanie w wyszukiwarkach.",
   },
   {
     icon: "Newspaper",
-    title: "Clear Headline",
+    title: "Indywidualne podejście",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur.",
+      "Każda strona jest unikalnie dostosowana do potrzeb naszych klientów, co zapewnia nie tylko unikatowość, ale również efektywność w osiąganiu biznesowych celów..",
   },
 ];
 
@@ -51,17 +51,15 @@ export const FeaturesSection = () => {
   return (
     <section id="features" className="container py-24 sm:py-32">
       <h2 className="text-lg text-primary text-center mb-2 tracking-wider">
-        Features
+        Firma bez strony internetowej ?
       </h2>
 
       <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
-        What Makes Us Different
+        Możesz to zmienić !
       </h2>
 
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
-        fugiat, odit similique quasi sint reiciendis quidem iure veritatis optio
-        facere tenetur.
+        
       </h3>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
