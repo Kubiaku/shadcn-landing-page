@@ -13,14 +13,14 @@ interface FAQProps {
 
 const FAQList: FAQProps[] = [
   {
-    question: "Jak długo trwa proces tworzenia strony internetowej?",
-    answer: "Proces tworzenia strony internetowej zazwyczaj trwa od 2 do 4 tygodni, jednak czas realizacji może się różnić w zależności od złożoności projektu, współpracy z klientem oraz dostępności potrzebnych zasobów, takich jak treść i grafiki.",
+    question: "Jak długo trwa proces tworzenia strony internetowej ?",
+    answer: "Proces tworzenia strony internetowej zazwyczaj trwa od 2 do 4 dni, jednak czas realizacji może się różnić w zależności od złożoności projektu, współpracy z klientem oraz dostępności potrzebnych zasobów, takich jak treść i grafiki.",
     value: "item-1",
   },
   {
-    question: "Ile kosztuje utrzymanie strony internetowej?",
+    question: "Ile kosztuje utrzymanie strony internetowej ?",
     answer:
-      "Pierwszy miesiąc obsługi strony jest darmowy. Późniejszy koszt utrzymania strony zależy od jej wielkości, jednak staramy się zapewnić konkurencyjne ceny, dostosowane do potrzeb i budżetu klienta.",
+      "Pierwszy rok obsługi strony jest darmowy. Późniejszy koszt utrzymania strony zależy od jej wielkości, jednak staramy się zapewnić konkurencyjne ceny, dostosowane do potrzeb i budżetu klienta.",
     value: "item-2",
   },
   {
@@ -35,7 +35,7 @@ const FAQList: FAQProps[] = [
     value: "item-4",
   },
   {
-    question: "Czy sam będę mógł zmieniać trść na stronie?",
+    question: "Czy sam będę mógł zmieniać trść na stronie ?",
     answer: "Tak, tworzymy dedykowanego panel administracyjny do każdej naszej witryny. Dzięki niemu łatwo dodasz, usuniesz i edytujesz treści, zachowując pełną kontrolę nad swoją stroną.",
     value: "item-5",
   },
@@ -46,7 +46,7 @@ export const FAQSection = () => {
     <section id="faq" className="container md:w-[700px] py-24 sm:py-32">
       <div className="text-center mb-8">
         <h2 className="text-lg text-primary text-center mb-2 tracking-wider">
-          FAQS
+          PYTANIA
         </h2>
 
         <h2 className="text-3xl md:text-4xl text-center font-bold">
