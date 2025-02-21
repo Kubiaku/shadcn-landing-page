@@ -1,15 +1,18 @@
-import GithubIcon from "@/components/icons/github-icon";
-import LinkedInIcon from "@/components/icons/linkedin-icon";
-import XIcon from "@/components/icons/x-icon";
+import GithubIcon from "'components/icons/github-icon'";
+import LinkedInIcon from "'components/icons/linkedin-icon'";
+import XIcon from "'components/icons/x-icon'";
+import { useLanguage } from "'contexts/language-context'";
+import { translations } from "'lib/translations'";
 import {
   Card,
   CardContent,
   CardHeader,
   CardTitle,
   CardFooter,
-} from "@/components/ui/card";
+} from "'components/ui/card'";
 import Image from "next/image";
 import Link from "next/link";
+
 interface TeamProps {
   imageUrl: string;
   firstName: string;
@@ -17,17 +20,21 @@ interface TeamProps {
   positions: string[];
   socialNetworks: SocialNetworkProps[];
 }
+
 interface SocialNetworkProps {
   name: string;
   url: string;
 }
+
 export const TeamSection = () => {
+  const { language } = useLanguage();
   const teamList: TeamProps[] = [
     {
       imageUrl: "https://i.pravatar.cc/250?img=58",
       firstName: "Leo",
       lastName: "Miranda",
-      positions: ["Vue Fronted Developer", "Creator Of This Website"],
+      positions: ["Programista Vue Frontend", "Twórca tej strony"],
+
       socialNetworks: [
         {
           name: "LinkedIn",
@@ -48,7 +55,8 @@ export const TeamSection = () => {
         "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       firstName: "Elizabeth",
       lastName: "Moore",
-      positions: ["UI/UX Designer"],
+      positions: ["Projektant UI/UX"],
+
       socialNetworks: [
         {
           name: "LinkedIn",
@@ -65,7 +73,8 @@ export const TeamSection = () => {
         "https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=1760&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       firstName: "David",
       lastName: "Diaz",
-      positions: ["Machine Learning Engineer", "TensorFlow Tinkerer"],
+      positions: ["Inżynier Uczenia Maszynowego", "Specjalista TensorFlow"],
+
       socialNetworks: [
         {
           name: "LinkedIn",
@@ -82,7 +91,8 @@ export const TeamSection = () => {
         "https://images.unsplash.com/photo-1573497161161-c3e73707e25c?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       firstName: "Sarah",
       lastName: "Robinson",
-      positions: ["Cloud Native Developer", " Kubernetes Orchestrator"],
+      positions: ["Programista Cloud Native", "Orkiestrator Kubernetes"],
+
       socialNetworks: [
         {
           name: "LinkedIn",
@@ -99,6 +109,7 @@ export const TeamSection = () => {
       ],
     },
   ];
+
   const socialIcon = (socialName: string) => {
     switch (socialName) {
       case "LinkedIn":
@@ -114,13 +125,11 @@ export const TeamSection = () => {
     <section id="team" className="container lg:w-[75%] py-24 sm:py-32">
       <div className="text-center mb-8">
         <h2 className="text-lg text-primary text-center mb-2 tracking-wider">
-          Zespół
+          {translations[language].team.title}
         </h2>
-
         <h2 className="text-3xl md:text-4xl text-center font-bold">
-          Nasz Zespół Marzeń
+          {translations[language].team.subtitle}
         </h2>
-
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
