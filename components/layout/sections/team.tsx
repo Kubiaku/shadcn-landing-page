@@ -114,12 +114,13 @@ export const TeamSection = () => {
     <section id="team" className="container lg:w-[75%] py-24 sm:py-32">
       <div className="text-center mb-8">
         <h2 className="text-lg text-primary text-center mb-2 tracking-wider">
-          Team
+          Zespół
         </h2>
 
         <h2 className="text-3xl md:text-4xl text-center font-bold">
-          The Company Dream Team
+          Nasz Zespół Marzeń
         </h2>
+
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">

@@ -16,7 +16,8 @@ export const FooterSection = () => {
           </div>
 
           <div className="flex flex-col gap-2">
-            <h3 className="font-bold text-lg">Contact</h3>
+            <h3 className="font-bold text-lg">Kontakt</h3>
+
             <div>
               <Link href="#" className="opacity-60 hover:opacity-100">
                 Github
@@ -37,7 +38,8 @@ export const FooterSection = () => {
           </div>
 
           <div className="flex flex-col gap-2">
-            <h3 className="font-bold text-lg">Platforms</h3>
+            <h3 className="font-bold text-lg">Platformy</h3>
+
             <div>
               <Link href="#" className="opacity-60 hover:opacity-100">
                 iOS
@@ -58,7 +60,8 @@ export const FooterSection = () => {
           </div>
 
           <div className="flex flex-col gap-2">
-            <h3 className="font-bold text-lg">Help</h3>
+            <h3 className="font-bold text-lg">Pomoc</h3>
+
             <div>
               <Link href="#" className="opacity-60 hover:opacity-100">
                 Contact Us
@@ -79,7 +82,8 @@ export const FooterSection = () => {
           </div>
 
           <div className="flex flex-col gap-2">
-            <h3 className="font-bold text-lg">Socials</h3>
+            <h3 className="font-bold text-lg">Media</h3>
+
             <div>
               <Link href="#" className="opacity-60 hover:opacity-100">
                 Twitch
@@ -102,9 +106,10 @@ export const FooterSection = () => {
 
         <Separator className="my-6" />
         <section className="">
-          <h3 className="">
-            &copy; 2025 KUBIAKU. All Rights Reserved.
-          </h3>
+            <h3 className="">
+            &copy; 2025 KUBIAKU. Wszelkie Prawa Zastrzeżone.
+            </h3>
+
         </section>
       </div>
     </footer>

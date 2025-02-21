@@ -56,7 +56,8 @@ const plans: PlanProps[] = [
     price: 1199,
     description:
       "",
-    buttonText: "Contact US",
+                buttonText: "Skontaktuj się z nami",
+
     benefitList: [
       "Łatwa aktualizacja katalogu produktów, włączając zdjęcia, ceny i opisy",
       "Zabezpieczone płatności online, zgodne ze standardami bezpieczeństwa",
